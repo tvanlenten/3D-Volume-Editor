@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="includes\ImGui\imgui.cpp" />
+    <ClCompile Include="includes\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="includes\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="includes\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="includes\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="includes\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="includes\OpenGL\Buffer.cpp" />
+    <ClCompile Include="includes\OpenGL\Camera.cpp" />
+    <ClCompile Include="includes\OpenGL\Control.cpp" />
+    <ClCompile Include="includes\OpenGL\FrameBuffer.cpp" />
+    <ClCompile Include="includes\OpenGL\Mesh.cpp" />
+    <ClCompile Include="includes\OpenGL\Shader.cpp" />
+    <ClCompile Include="includes\OpenGL\Texture.cpp" />
+    <ClCompile Include="includes\main.cpp" />
+    <ClCompile Include="includes\CSG\Sphere.cpp" />
+    <ClCompile Include="includes\CSG\Union.cpp" />
+    <ClCompile Include="includes\CSG\Box.cpp" />
+    <ClCompile Include="includes\CSG\Subtract.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\CSG\CSGnode.h" />
+    <ClInclude Include="includes\ImGui\imconfig.h" />
+    <ClInclude Include="includes\ImGui\imgui.h" />
+    <ClInclude Include="includes\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="includes\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="includes\ImGui\imgui_internal.h" />
+    <ClInclude Include="includes\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="includes\ImGui\imstb_textedit.h" />
+    <ClInclude Include="includes\ImGui\imstb_truetype.h" />
+    <ClInclude Include="includes\OpenGL\Buffer.h" />
+    <ClInclude Include="includes\OpenGL\Camera.h" />
+    <ClInclude Include="includes\OpenGL\Control.h" />
+    <ClInclude Include="includes\OpenGL\FrameBuffer.h" />
+    <ClInclude Include="includes\OpenGL\Mesh.h" />
+    <ClInclude Include="includes\OpenGL\OpenGL.h" />
+    <ClInclude Include="includes\OpenGL\Shader.h" />
+    <ClInclude Include="includes\OpenGL\Texture.h" />
+    <ClInclude Include="includes\CSG\Sphere.h" />
+    <ClInclude Include="includes\CSG\Union.h" />
+    <ClInclude Include="includes\CSG\Box.h" />
+    <ClInclude Include="includes\CSG\Subtract.h" />
+    <ClInclude Include="includes\CSG\RayMarchingShaders.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\vertex2D.vert" />
+    <None Include="shaders\rayMarcher.frag" />
+  </ItemGroup>
+</Project>
